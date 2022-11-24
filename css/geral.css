@@ -1,0 +1,19 @@
+.tabela-antiga td,
+.tabela-antiga th {
+	cursor: pointer;
+}
+
+.selecionado {
+	background-color: #00f3ff4a!important;
+}
+
+.disciplina-distancia,
+.disciplina-distancia-total {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #02007a;
+}
+
+.disciplina-distancia-total {
+	color: #850c00;
+}

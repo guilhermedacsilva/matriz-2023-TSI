@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nova matriz de TSI</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-icons.css">
+	<link rel="stylesheet" href="css/geral.css">
+	<script src="js/jquery-3.6.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/geral.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">A nova matriz de TSI</h1>
+		<p>A nova matriz foi elaborada pensando no perfil do aluno que queremos formar. Remodelamos muitas disciplinas para que a matriz se aproxime do mercado de trabalho dos desenvolvedores de software. Resumo das alterações:</p>
+		<ul class="mb-5">
+			<li>Quase metade da carga horária do curso será a distância.</li>
+			<li>O primeiro período se tornou nivelador. A ideia é que o aluno não tenha um grande choque quando ingressar na universidade.</li>
+			<li>A primeira disciplina de lógica de programação usará uma linguagem visual (quase não vai precisar escrever). Assim o aluno formará uma base de conhecimento para depois cursar uma disciplina de programação escrita.</li>
+			<li>O aluno aprenderá a utilizar o Linux desde o primeiro período.</li>
+			<li>O aluno aprenderá a utilizar o Git e Github desde o primeiro período. Hoje o Github faz parte do currículo do desenvolvedor web.</li>
+			<li>Maior quantidade de disciplinas de programação frontend.</li>
+			<li>Serão ensinadas basicamente duas linguagens de programação: Javascript e PHP.</li>
+			<li>Existirão disciplinas de virtualização e nuvem.</li>
+			<li>Será ensinado inglês.</li>
+			<li>Será ensinada programação backend com e sem API.</li>
+			<li>Existirão duas disciplinas de programação para dispositivos móveis.</li>
+			<li>O aluno não precisará realizar atividades complementares.</li>
+			<li>Existirão duas disciplinas extensionistas.</li>
+			<li>Atualização das tecnologias utilizadas nas disciplinas.</li>
+			<li>Disciplinas removidas e diluídas durante o curso: matemática, interação humano-computador, design gráfico, gestão da qualidade e metodologia da pesquisa.</li>
+		</ul>
+		
+		<h2 class="text-center">Simulador de Migração de Matriz</h2>
+		<p><button class="btn btn-sm btn-danger limpar">Limpar disciplinas selecionadas</button></p>
+		<p class="text-center">Clique nas disciplinas ou nos períodos em que você foi aprovado.</p>
+		
+		<table class="table table-sm tabela-antiga">
+			<tr>
+				<th name="P1" class="col-lg-1">1º período</th>
+				<td name="DW1" data-cht="70" data-chd="0">Desenvolvimento para Web 1</td>
+				<td name="PCLP" data-cht="70" data-chd="0">Pensamento Computacional e Lógica de Programação</td>
+				<td name="IOO" data-cht="70" data-chd="0">Introdução à Orientação a Objeto</td>
+				<td name="IOAC" data-cht="35" data-chd="0">Introdução à Organização e Arquitetura de Computadores</td>
+				<td name="CL" data-cht="35" data-chd="0">Comunicação Linguística</td>
+			</tr>
+			<tr>
+				<th name="P2">2º período</th>
+				<td name="DW2" data-cht="70" data-chd="0">Desenvolvimento para Web 2</td>
+				<td name="ED1" data-cht="70" data-chd="0">Estrutura de Dados 1</td>
+				<td name="LOO" data-cht="70" data-chd="0">Linguagem Orientada a Objetos</td>
+				<td name="BD1" data-cht="70" data-chd="0">Banco de Dados 1</td>
+				<td name="FMC" data-cht="70" data-chd="0">Fundamentos Matemáticos da Computação</td>
+			</tr>
+			<tr>
+				<th name="P3">3º período</th>
+				<td name="DW3" data-cht="70" data-chd="0">Desenvolvimento para Web 3</td>
+				<td name="BD2" data-cht="70" data-chd="0">Banco de Dados 2</td>
+				<td name="APOO" data-cht="70" data-chd="0">Análise e Projeto Orientado a Objetos</td>
+				<td name="SO" data-cht="70" data-chd="0">Sistemas Operacionais</td>
+				<td name="IHC" data-cht="35" data-chd="0">Interação Humano-Computador</td>
+				<td name="DG" data-cht="35" data-chd="0">Design Gráfico</td>
+			</tr>
+			<tr>
+				<th name="P4">4º período</th>
+				<td name="DW4" data-cht="70" data-chd="0">Desenvolvimento para Web 4</td>
+				<td name="ED2" data-cht="70" data-chd="0">Estrutura de Dados 2</td>
+				<td name="ES" data-cht="70" data-chd="0">Engenharia de Software</td>
+				<td name="RCCD" data-cht="70" data-chd="0">Redes de Computadores e Comunicação de Dados</td>
+				<td name="GQ" data-cht="35" data-chd="0">Gestão da Qualidade</td>
+				<td name="MP" data-cht="35" data-chd="0">Metodologia da Pesquisa</td>
+			</tr>
+			<tr>
+				<th name="P5">5º período</th>
+				<td name="DW5" data-cht="70" data-chd="0">Desenvolvimento para Web 5</td>
+				<td name="PDM" data-cht="70" data-chd="0">Programação para Dispositivos Móveis</td>
+				<td name="PP" data-cht="70" data-chd="0">Padrões de Projeto</td>
+				<td name="RCI" data-cht="70" data-chd="0">Redes de Computadores e a Internet</td>
+				<td name="EAI" data-cht="35" data-chd="0">Empreendedorismo e Análise de Investimentos</td>
+				<td name="TCC1" data-cht="60" data-chd="0">TCC 1</td>
+			</tr>
+			<tr>
+				<th name="P6">6º período</th>
+				<td name="OE" data-cht="70" data-chd="0">Optativa Específica</td>
+				<td name="SD" data-cht="70" data-chd="0">Sistemas Distribuídos</td>
+				<td name="PN" data-cht="35" data-chd="17">Plano de Negócios</td>
+				<td name="GP" data-cht="35" data-chd="17">Gestão de Projetos</td>
+				<td name="IS" data-cht="35" data-chd="0">Informática na Sociedade</td>
+				<td name="TCC2" data-cht="60" data-chd="0">TCC 2</td>
+			</tr>
+			<caption class="text-black legenda-matriz-antiga"></caption>
+		</table>
+
+		<h2 class="text-center">Nova Matriz</h2>
+
+		<p><button class="btn btn-primary btn-sm distancia">Colorir disciplinas a distância</button></p>
+		
+		<table class="table table-sm tabela-nova">
+			<tr>
+				<th class="col-lg-1">1º período</th>
+				<td name="DPWHC" data-cht="60" data-chd="0">Desenvolvimento de Páginas Web com HTML e CSS</td>
+				<td name="FSC" data-cht="60" data-chd="0">Fundamentos de Sistemas Computacionais</td>
+				<td name="PCLPV" data-cht="90" data-chd="0">Pensamento Computacional e Linguagem de Programação Visual</td>
+				<td data-cht="30" data-chd="0">Introdução à Computação</td>
+				<td name="CL" data-cht="30" data-chd="0">Comunicação Linguística</td>
+			</tr>
+			<tr>
+				<th>2º período</th>
+				<td name="PS" data-cht="60" data-chd="0">Projeto de software</td>
+				<td name="DPWFC" data-cht="60" data-chd="30">Desenvolvimento de Páginas Web com Framework e CSS <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td name="FSW" data-cht="60" data-chd="0">Fundamentos em Servidores Web</td>
+				<td name="FP" data-cht="90" data-chd="30">Fundamentos de Programação <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td data-cht="30" data-chd="0">Optativa</td>
+			</tr>
+			<tr>
+				<th>3º período</th>
+				<td data-cht="60" data-chd="30">Desenvolvimento de Aplicações Frontend Web com Frameworks e Componentes <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td name="DOW" data-cht="60" data-chd="0">Desenvolvimento e Operações na Web</td>
+				<td name="POO" data-cht="60" data-chd="0">Programação Orientada a Objetos</td>
+				<td name="BDR" data-cht="90" data-chd="30">Banco de Dados Relacional <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td data-cht="30" data-chd="0">Língua Inglesa</td>
+			</tr>
+			<tr>
+				<th>4º período</th>
+				<td name="PDM" data-cht="60" data-chd="0">Programação para Dispositivos Móveis</td>
+				<td name="RP" data-cht="90" data-chd="30">Resolução de Problemas <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td data-cht="90" data-chd="60">Projetos de Extensão <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="DAB" data-cht="90" data-chd="30">Desenvolvimento de Aplicações Backend <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td name="BDN" data-cht="60" data-chd="30">Banco de Dados NoSQL <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td data-cht="30" data-chd="0">Língua Inglesa no Contexto de Tecnologia da Informação</td>
+			</tr>
+			<tr>
+				<th>5º período</th>
+				<td name="DPDM" data-cht="60" data-chd="60">Desenvolvimento de Projetos para Dispositivos Móveis <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="EMP" data-cht="60" data-chd="30">Empreendedorismo <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+				<td name="DON" data-cht="60" data-chd="60">Desenvolvimento e Operações na Nuvem <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="DABF" data-cht="60" data-chd="60">Desenvolvimento de Aplicações Backend com Framework <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td data-cht="150" data-chd="120">Projetos de Extensão Colaborativos <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="TCC1" data-cht="60" data-chd="30">TCC 1 <i class="bi bi-calendar3" title="Disciplina com média carga horária a distância"></i></td>
+			</tr>
+			<tr>
+				<th>6º período</th>
+				<td name="TE" data-cht="30" data-chd="30">Tópicos Especiais <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="GS" data-cht="60" data-chd="60">Gestão de Startups <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="CN" data-cht="60" data-chd="60">Computação em Nuvem <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="ASW" data-cht="60" data-chd="60">Arquitetura de Sistemas Web <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="IS" data-cht="30" data-chd="30">Informática na Sociedade <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+				<td name="TCC2" data-cht="60" data-chd="60">TCC 2 <i class="bi bi-webcam-fill" title="Disciplina com grande carga horária a distância"></i></td>
+			</tr>
+			<caption class="text-black legenda-matriz-nova"></caption>
+			<caption class="text-black fw-bold">As disciplinas de extensão possuem 180 horas a distância.</caption>
+			<caption class="disciplina-distancia"><i class="bi bi-calendar3"></i> Disciplina com média carga horária a distância.</caption>
+			<caption class="disciplina-distancia-total"><i class="bi bi-webcam-fill"></i> Disciplina com grande carga horária a distância.</caption>
+		</table>
+	</div>
+</body>
+</html>
